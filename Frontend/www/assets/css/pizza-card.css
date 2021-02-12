@@ -1,0 +1,39 @@
+.pizza-card {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.orange-primary {
+    color: #ff6e26;
+}
+
+.pizza-title {
+    margin-top: .7rem;
+    font-weight: bold;
+}
+
+.pricing {
+    font-weight: bold;
+    color: #363636;
+    margin-top: 1rem;
+}
+
+.money-quantity {
+    font-size: 24px;
+}
+
+.currency {
+    font-size: 12px;
+}
+
+.btn-buy {
+    background-color: #f0ab2b;
+    color: #fff;
+}
+

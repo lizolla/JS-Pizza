@@ -1,0 +1,16 @@
+.filters {
+    margin-top: 6rem;
+}
+
+.filter-link:link, .filter-link:active, .filter-link:visited {
+    color: #ff6e26;
+    margin: 0 .5rem;
+    text-decoration: none;
+}
+
+.filter-link.active {
+    color: white;
+    background-color: #ff6e26;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+}

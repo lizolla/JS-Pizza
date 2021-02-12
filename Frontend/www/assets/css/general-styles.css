@@ -1,0 +1,14 @@
+body {
+    display: flex;
+}
+
+.page {
+    background-color: #fffdfa;
+    width: 70%;
+    margin-right: 30%;
+}
+
+.number-container {
+    background-color: #ff6e26;
+}
+

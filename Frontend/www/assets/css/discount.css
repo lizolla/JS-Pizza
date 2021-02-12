@@ -1,0 +1,20 @@
+.discount {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    transform: rotate(180deg);
+    opacity: .9;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.discount > div {
+    transform: rotate(180deg);
+    text-align: center;
+}
+
+.discount > div:nth-child(2) {
+    border-bottom: 1px dashed #363636;
+}
