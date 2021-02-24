@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" lang="ru">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pizza</title>
+
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+            crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css"/>
+    <!-- LESS JavaScript компілятор -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
+
+</head>
+<body>
+<div class="container page">
+
+    <div class="row header">
+        <div class="title-block d-flex flex-column justify-content-center align-items-center">
+            <div>PIZZA</div>
+            <div class="kma">KMA</div>
+        </div>
+        <div class="header__info-column">
+            <div class="row align-items-center  up-line">
+                <div class="col-8 d-flex justify-content-between">
+                    <span class="phone-number">(044) 222 5 222</span>
+                    <span class="d-none d-lg-inline">24 години / 7 днів на тиждень</span>
+                    <span class="d-none d-xl-inline">Безкоштовна доставка піци</span>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <a class="btn-buy btn" href="#">Увійти</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    Піца
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="filters row justify-content-center align-items-center">
+        <h1 class="text-center">Усі піци</h1>
+        <span class="badge badge-pill number-container text-white ml-3">8</span>
+    </div>
+    <div class="row justify-content-center align-items-center">
+        <a href="#" class="filter-link active">Усі</a>
+        <a href="#" class="filter-link">Мясні</a>
+        <a href="#" class="filter-link">З ананасами</a>
+        <a href="#" class="filter-link">З грибами</a>
+        <a href="#" class="filter-link">З морепродуктами</a>
+        <a href="#" class="filter-link">Вега</a>
+    </div>
+
+
+    <div class="row justify-content-center" id="pizza_list">
+        <div class="col-12 col-lg-6 col-xl-4">
+            <div class="thumbnail pizza-card">
+                <img src="assets/images/pizza_1.jpg" alt="Pizza">
+
+                <div class="caption">
+                    <h3 class="h3 orange-primary pizza-title">Імпреза</h3>
+
+                    <span class="text-muted">Мясна піца</span>
+
+                    <p>
+                        Балик, салямі, курка, сир моцарелла, сир рокфорд, ананаси, томатна паста, петрушка
+                    </p>
+
+                    <div class="pizza-info container">
+                        <div class="pizza-info-row row">
+                            <div class="col-6 text-center">
+                                <img src="assets/images/size-icon.svg" alt="Size"/>
+                                30
+                            </div>
+                            <div class="col-6 text-center">
+                                <img src="assets/images/size-icon.svg" alt="Size"/>
+                                40
+                            </div>
+                        </div>
+                        <div class="pizza-info-row row">
+                            <div class="col-6 text-center">
+                                <img src="assets/images/weight.svg" alt="Weight"/>
+                                370
+                            </div>
+                            <div class="col-6 text-center">
+                                <img src="assets/images/weight.svg" alt="Weight"/>
+                                660
+                            </div>
+                        </div>
+                        <div class="pricing row">
+                            <div class="col-6 text-center">
+                                <div class="money-quantity">99</div>
+                                <div class="currency">грн.</div>
+                            </div>
+                            <div class="col-6 text-center">
+                                <div class="money-quantity">169</div>
+                                <div class="currency">грн.</div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-around">
+                            <a href="#" class="btn btn-buy col-4">Купити</a>
+                            <a href="#" class="btn btn-buy col-4">Купити</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4">
+            <div class="thumbnail pizza-card">
+                <img src="assets/images/pizza_2.jpg" alt="Pizza">
+
+                <div class="caption">
+                    <h3 class="h3 orange-primary pizza-title">BBQ</h3>
+
+                    <span class="text-muted">Мясна піца</span>
+
+                    <p>
+                        Мисливські ковбаски, ковбаски папероні, шинка, сир домашній, шампіньйони, петрушка, оливки
+                    </p>
+
+                    <div class="pizza-info container">
+                        <div class="pizza-info-row row">
+                            <div class="col-6 text-center">
+                                <img src="assets/images/size-icon.svg" alt="Size"/>
+                                30
+                            </div>
+                            <div class="col-6 text-center">
+                                <img src="assets/images/size-icon.svg" alt="Size"/>
+                                40
+                            </div>
+                        </div>
+                        <div class="pizza-info-row row">
+                            <div class="col-6 text-center">
+                                <img src="assets/images/weight.svg" alt="Weight"/>
+                                460
+                            </div>
+                            <div class="col-6 text-center">
+                                <img src="assets/images/weight.svg" alt="Weight"/>
+                                840
+                            </div>
+                        </div>
+                        <div class="pricing row">
+                            <div class="col-6 text-center">
+                                <div class="money-quantity">139</div>
+                                <div class="currency">грн.</div>
+                            </div>
+                            <div class="col-6 text-center">
+                                <div class="money-quantity">199</div>
+                                <div class="currency">грн.</div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-around">
+                            <a href="#" class="btn btn-buy col-4">Купити</a>
+                            <a href="#" class="btn btn-buy col-4">Купити</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4">
+            <div class="thumbnail pizza-card">
+                <img src="assets/images/pizza_3.jpg" alt="Pizza">
+
+                <div class="caption">
+                    <h3 class="h3 orange-primary pizza-title">Міксовий поло</h3>
+
+                    <span class="text-muted">Мясна піца</span>
+
+                    <p>
+                        Шинка, курка копчена, сир моцарелла, ананаси, кукурудза, петрушка, соус томатний
+                    </p>
+
+                    <div class="pizza-info container">
+                        <div class="pizza-info-row row">
+                            <div class="col-6 text-center">
+                                <img src="assets/images/size-icon.svg" alt="Size"/>
+                                30
+                            </div>
+                            <div class="col-6 text-center">
+                                <img src="assets/images/size-icon.svg" alt="Size"/>
+                                40
+                            </div>
+                        </div>
+                        <div class="pizza-info-row row">
+                            <div class="col-6 text-center">
+                                <img src="assets/images/weight.svg" alt="Weight"/>
+                                430
+                            </div>
+                            <div class="col-6 text-center">
+                                <img src="assets/images/weight.svg" alt="Weight"/>
+                                780
+                            </div>
+                        </div>
+                        <div class="pricing row">
+                            <div class="col-6 text-center">
+                                <div class="money-quantity">115</div>
+                                <div class="currency">грн.</div>
+                            </div>
+                            <div class="col-6 text-center">
+                                <div class="money-quantity">179</div>
+                                <div class="currency">грн.</div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-around">
+                            <a href="#" class="btn btn-buy col-4">Купити</a>
+                            <a href="#" class="btn btn-buy col-4">Купити</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4">
+            <div class="thumbnail pizza-card">
+                <img src="assets/images/pizza_4.jpg" alt="Pizza">
+
+                <div class="caption">
+                    <h3 class="h3 orange-primary pizza-title">Дольче маре</h3>
+
+                    <span class="text-muted">Морська піца</span>
+
+                    <p>
+                        Мідії, ікра червона, філе червоної риби, оливкова олія, вершки
+                    </p>
+
+                    <div class="pizza-info container">
+                        <div class="pizza-info-row row">
+                            <div class="col-12 text-center">
+                                <img src="assets/images/size-icon.svg" alt="Size"/>
+                                40
+                            </div>
+                        </div>
+                        <div class="pizza-info-row row">
+                            <div class="col-12 text-center">
+                                <img src="assets/images/weight.svg" alt="Weight"/>
+                                845
+                            </div>
+                        </div>
+                        <div class="pricing row">
+                            <div class="col-12 text-center">
+                                <div class="money-quantity">399</div>
+                                <div class="currency">грн.</div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-around">
+                            <a href="#" class="btn btn-buy col-4">Купити</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4">
+            <div class="thumbnail pizza-card">
+                <img src="assets/images/pizza_4.jpg" alt="Pizza">
+
+                <div class="caption">
+                    <h3 class="h3 orange-primary pizza-title">Россо Густо</h3>
+
+                    <span class="text-muted">Морська піца</span>
+
+                    <p>
+                        Ікра червона, лосось копчений, сир моцарелла, оливкова олія, вершки
+                    </p>
+
+                    <div class="pizza-info container">
+                        <div class="pizza-info-row row">
+                            <div class="col-6 text-center">
+                                <img src="assets/images/size-icon.svg" alt="Size"/>
+                                30
+                            </div>
+                            <div class="col-6 text-center">
+                                <img src="assets/images/size-icon.svg" alt="Size"/>
+                                40
+                            </div>
+                        </div>
+                        <div class="pizza-info-row row">
+                            <div class="col-6 text-center">
+                                <img src="assets/images/weight.svg" alt="Weight"/>
+                                400
+                            </div>
+                            <div class="col-6 text-center">
+                                <img src="assets/images/weight.svg" alt="Weight"/>
+                                700
+                            </div>
+                        </div>
+                        <div class="pricing row">
+                            <div class="col-6 text-center">
+                                <div class="money-quantity">189</div>
+                                <div class="currency">грн.</div>
+                            </div>
+                            <div class="col-6 text-center">
+                                <div class="money-quantity">299</div>
+                                <div class="currency">грн.</div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-around">
+                            <a href="#" class="btn btn-buy col-4">Купити</a>
+                            <a href="#" class="btn btn-buy col-4">Купити</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="cart" class="container">
+    <div class="cart-header row align-items-center">
+        <div class="col-6 d-flex align-items-center justify-content-center cart-header__first-col">
+            <h3 class="m-0">Замовлення</h3>
+            <span class="badge badge-pill number-container text-white ml-3">3</span>
+        </div>
+        <div class="col-6 text-muted cart-header__second-col">
+            Очистити замовлення
+        </div>
+    </div>
+
+    <div class="order-list row flex-column">
+        <div class="order-list__item col-12">
+            <div class="order-list__item-header">
+                BBQ (Мала)
+            </div>
+            <div class="order-list__item-info d-flex">
+                <div class="col-2 p-0">
+                    <img src="assets/images/size-icon.svg" alt="Size"/>
+                    30
+                </div>
+                <div class="col-2 p-0">
+                    <img src="assets/images/weight.svg" alt="Weight"/>
+                    460
+                </div>
+            </div>
+            <div class="order-list__item-controls d-flex">
+                <div class="order-list__item-controls-price">
+                    556 грн.
+                </div>
+                <div class="order-list__item-controls-minus order-list__item-controls-btn">
+                    <span>-</span>
+                </div>
+                <span>4</span>
+                <div class="order-list__item-controls-plus order-list__item-controls-btn">
+                    <span>&#43;</span>
+                </div>
+                <div class="order-list__item-controls-cancel order-list__item-controls-btn">
+                    &#x2715;
+                </div>
+            </div>
+            <img src="assets/images/pizza_2.jpg" alt="Pizza"/>
+        </div>
+
+        <div class="order-list__item col-12">
+            <div class="order-list__item-header">
+                BBQ (Мала)
+            </div>
+            <div class="order-list__item-info d-flex">
+                <div class="col-2 p-0">
+                    <img src="assets/images/size-icon.svg" alt="Size"/>
+                    30
+                </div>
+                <div class="col-2 p-0">
+                    <img src="assets/images/weight.svg" alt="Weight"/>
+                    460
+                </div>
+            </div>
+            <div class="order-list__item-controls d-flex">
+                <div class="order-list__item-controls-price">
+                    556 грн.
+                </div>
+                <div class="order-list__item-controls-minus order-list__item-controls-btn">
+                    <span>-</span>
+                </div>
+                <span>4</span>
+                <div class="order-list__item-controls-plus order-list__item-controls-btn">
+                    <span>&#43;</span>
+                </div>
+                <div class="order-list__item-controls-cancel order-list__item-controls-btn">
+                    &#x2715;
+                </div>
+            </div>
+            <img src="assets/images/pizza_5.jpg" alt="Pizza"/>
+        </div>
+
+        <div class="order-list__item col-12">
+            <div class="order-list__item-header">
+                BBQ (Мала)
+            </div>
+            <div class="order-list__item-info d-flex">
+                <div class="col-2 p-0">
+                    <img src="assets/images/size-icon.svg" alt="Size"/>
+                    30
+                </div>
+                <div class="col-2 p-0">
+                    <img src="assets/images/weight.svg" alt="Weight"/>
+                    460
+                </div>
+            </div>
+            <div class="order-list__item-controls d-flex">
+                <div class="order-list__item-controls-price">
+                    556 грн.
+                </div>
+                <div class="order-list__item-controls-minus order-list__item-controls-btn">
+                    <span>-</span>
+                </div>
+                <span>4</span>
+                <div class="order-list__item-controls-plus order-list__item-controls-btn">
+                    <span>&#43;</span>
+                </div>
+                <div class="order-list__item-controls-cancel order-list__item-controls-btn">
+                    &#x2715;
+                </div>
+            </div>
+            <img src="assets/images/pizza_3.jpg" alt="Pizza"/>
+        </div>
+    </div>
+
+    <div class="order-list__summary row flex-column">
+        <div class="d-flex justify-content-between mt-1 pl-3 pr-3">
+            <span class="order-list__summary-sum">Сума замовлення</span>
+            <span class="order-list__summary-price">924 грн.</span>
+        </div>
+        <a href="#" class="btn btn-buy order-list__summary-btn">Замовити</a>
+    </div>
+</div>
+
+<div class="title-block d-flex flex-column justify-content-center align-items-center discount">
+    <div class="kma">-20%</div>
+    <div>Цього тижня на все</div>
+</div>
+
+<!-- jQuery JavaScript -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!--Bootsrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!--Own JavaScript -->
+<script type="text/javascript"  src="assets/js/main.js"> </script>
+</body>
+</html>
